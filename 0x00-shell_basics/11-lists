@@ -1,2 +1,2 @@
 #!/bin/bash
-(ls -lA & cd .. & ls -lA) & (cd /boot & ls -lA)
+ls -l -a ; cd .. ; ls -l -a ; cd /boot ; ls -l -a ; exit 0
