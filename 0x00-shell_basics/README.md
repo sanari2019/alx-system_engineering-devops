@@ -46,6 +46,19 @@ Here is a list of the available scripts in this repository along with brief desc
 
 15. **14-copy_html**
     - **Description:** Copies HTML files from the current working directory to the parent of the working directory, but only if they don't exist or are newer.
+16.** Task 15: Let’s move ** :Description: Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+Script: 100-lets_move
+**Task 16: Clean Emacs**: Description: Create a script that deletes all files in the current working directory that end with the character ~.
+Script: 101-clean_emacs
+
+**Task 17: Tree **: Description: Create a script that creates the directories welcome/, welcome/to/, and welcome/to/school in the current directory.
+Script: 102-tree
+**Task 18: Life is a series of commas, not periods**:Description: Write a command that lists all the files and directories of the current directory, separated by commas (,).
+Script: 103-commas
+
+**Task 19: File type: School**
+Description: Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+Magic File: school.mgc
 
 ## Usage
 
