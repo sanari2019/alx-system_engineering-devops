@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Read input from stdin
+while read -r line; do
+    # Remove all 'c' and 'C' characters using tr
+    echo "$line" | tr -d 'cC'
+done 
